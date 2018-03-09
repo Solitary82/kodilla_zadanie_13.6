@@ -1,0 +1,20 @@
+{
+  "name": "Zadanie_13.6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js",
+    "download": "curl https://raw.githubusercontent.com/jshint/jshint/master/examples/.jshintrc -o .jshintrc",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "jshint": "^2.9.5",
+    "npm-run-all": "^4.1.2",
+    "stat-mode": "^0.2.2"
+  }
+}

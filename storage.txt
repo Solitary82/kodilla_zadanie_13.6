@@ -1,0 +1,1 @@
+.git,.jshintrc,cat.jpg,index.js,node_modules,package-lock.json,package.json,storage.txt,tekst.txt
