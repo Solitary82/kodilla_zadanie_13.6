@@ -2,11 +2,10 @@
   "name": "Zadanie_13.6",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jshint index.js",
     "download": "curl https://raw.githubusercontent.com/jshint/jshint/master/examples/.jshintrc -o .jshintrc",
-    "start": "node index.js"
+    "test": "jshint index.js"
   },
   "keywords": [],
   "author": "",

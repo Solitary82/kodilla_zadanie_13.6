@@ -27,10 +27,7 @@ fs.readFile('./tekst.txt', 'utf-8', function(err, data) {
 fs.readdir('./', function(err, files) {
     if(err) {
         throw err;
-    }
-    files.forEach(function(file) {
-        console.log(file);
-        
+    } else {
         fs.writeFile('./storage.txt', files, function(err) {
             if(err) {
                 throw err;
@@ -42,7 +39,7 @@ fs.readdir('./', function(err, files) {
             console.log(data.toString());
             });
         });
-    });
+    }
 });
 
 
