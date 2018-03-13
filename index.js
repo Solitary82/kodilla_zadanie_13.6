@@ -36,7 +36,7 @@ fs.readdir('./', function(err, files) {
                 if(err) {
                     throw err;
                 }
-            console.log(data.toString());
+            console.log(colors.red('Zawartość katalogu to: ') + data.toString());
             });
         });
     }
