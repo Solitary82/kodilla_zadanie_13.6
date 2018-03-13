@@ -32,6 +32,8 @@ fs.readdir('./', function(err, files) {
             if(err) {
                 throw err;
             }
+            console.log(colors.yellow('Zapisano zawartość katalogu w pliku storage.txt'));
+            
             fs.readFile('./storage.txt', function (err, data) {
                 if(err) {
                     throw err;
